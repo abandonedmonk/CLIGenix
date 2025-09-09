@@ -6,9 +6,10 @@ authors = ["Anshuman Jena <anshujena007@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
 click = "^8.1.6"
 typer = "^0.12.5"
+numpy = "^2.3.3"
 
 [tool.poetry.scripts]
 cligenix = "cligenix.cli:app"
