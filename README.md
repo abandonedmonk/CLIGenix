@@ -57,14 +57,16 @@ poetry shell
 After installation, you can run the CLI as follows:
 
 ```sh
-poetry run cligenix
+poetry run cligenix input-query "How to find files in a directory using Linux command line?"
 ```
 
-Or, if you installed it globally, simply:
+Or, if you want to run it directly with Python:
 
 ```sh
-cligenix
+python cli.py input-query "How to find files in a directory using Linux command line?"
 ```
+
+Replace the query in quotes with your own question.
 
 ## Testing
 
