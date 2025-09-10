@@ -38,3 +38,5 @@ def main(name: str):
 # If this script is run directly, launch the Typer CLI app
 if __name__ == "__main__":
     app()
+
+# Running it: python cli.py command1 your_name
